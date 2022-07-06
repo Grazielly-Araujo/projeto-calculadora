@@ -1,0 +1,29 @@
+var divi = function (a,b){
+    return a/b;
+}
+
+module.exports = divi;
+
+var multi = function (a,b){
+    return a*b;
+}
+
+module.exports = multi;
+
+var soma = function (a,b){
+    return a + b;
+}
+
+module.exports = soma;
+
+
+var sub = function (a,b){
+    return a - b;
+}
+
+module.exports = sub;
+
+var test = require("./multi")
+
+
+console.log(test(5,2));
